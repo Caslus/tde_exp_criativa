@@ -108,12 +108,12 @@ a:hover div.button {
   height: 40px;
   margin-left: -150px;
   letter-spacing: 0px;
-  transition: .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 a:hover span {
   opacity: 100;
   font-size: 2rem;
-  transition: .8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: .1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 div.button:active {
