@@ -83,6 +83,7 @@ div.button{
   border-radius: 10px;
   width: 10px;
   height: 10px;
+  white-space: nowrap;
   position: relative;
   left: 50%;
   margin-left: -10px;
@@ -108,12 +109,12 @@ a:hover div.button {
   height: 40px;
   margin-left: -150px;
   letter-spacing: 0px;
-  transition: .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 a:hover span {
   opacity: 100;
   font-size: 2rem;
-  transition: .1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 1s cubic-bezier(.17,.88,.3,1.08);
 }
 
 div.button:active {

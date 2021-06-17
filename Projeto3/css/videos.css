@@ -1,0 +1,16 @@
+h1{
+    font-size: 2em;
+    letter-spacing: 0.05em;
+}
+.gallery{
+    display:block;
+    margin: auto;
+    width: 65%;
+}
+.gallery iframe{
+    margin: 5px;
+    width: 580px;
+    height: 300px;
+    float:left;
+    object-fit: cover;
+}

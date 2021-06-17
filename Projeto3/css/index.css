@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container object{
+    max-width: 200px;
+    transition-duration: .2s;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+a{
+    margin-top: 2%;
+    list-style: none;
+    color: #cecece;
+    cursor: pointer;
+    font-size: 50px;
+    text-decoration: underline 0.15em rgba(232, 188, 100, 0);
+    transition: text-decoration-color 300ms;
+}
+a:hover{
+    text-decoration: underline 0.15em rgba(232, 188, 100, 100);
+}
+a:active{
+    color: #a6c3d6;
+}
+.container object{
+    width: 500px;
+    height: auto;
+}

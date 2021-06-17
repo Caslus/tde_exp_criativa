@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>PROJETO WEB</title>
+  <link rel="stylesheet" href="../Projeto3/css/main.css" />
+  <link rel="stylesheet" href="../Projeto3/css/login.css" />
+  <link rel="icon" href="../Projeto3/media/icone.ico">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="../Projeto3/js/jquery.md5.js"></script>
+  <script src="../Projeto3/js/login.js"></script>
+</head>
+<body>
+    <div class="backbtndiv">
+        <a class="backbtn" href="../Projeto3/index.html"><</a>
+    </div>
+    <div class="container" id='formLogin'>
+        <h1>login</h1>
+        <form>
+            <input type='email' placeholder='email' id='emailLogin'></input>
+            <input type='password' placeholder='senha' id='senhaLogin'></input>
+            <br>
+            <input type='button' value="login" onclick="login()" id='botaoLogin'></input>
+            <br>
+            <a class='alternar' onclick="alternar()">registrar-se</a>
+        </form>
+    </div>
+    <div class="container" id='formRegistro'>
+        <h1>registro</h1>
+        <form>
+            <input type='text' placeholder='nome de usuário' id='userRegistro'></input>
+            <input type='email' placeholder='email' id='emailRegistro'></input>
+            <input type='date' placeholder='data de nascimento' id='dataRegistro'></input>
+            <input type='password' placeholder='senha' id='senhaRegistro'></input>
+            <input type='password' placeholder='confirmar senha' id='confirmarSenhaRegistro'></input>
+            <br>
+            <input type='button' value="registrar" onclick="registrar()" id='botaoRegistro'></input>
+            <br>
+            <a class='alternar' onclick="alternar()">fazer login</a>
+        </form>
+    </div>
+</body>
+</html>
